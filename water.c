@@ -5,12 +5,12 @@ int main(void) //int is to initialize. Main means this is the main function to b
 {
     int minutes;
 
-    do{
+    do
+    {
     printf("Minutes:");
-    minutes = get_int();
+    minutes=get_int();
 }
     while (minutes<0);
-    int bottles = minutes*12;
-    printf("Bottles:%i\n", bottles);
+    printf("Bottles: %i\n", minutes*12);
 
-    }
+}
