@@ -28,7 +28,7 @@ int main(void)
 
         for (int blocks_counter =0; blocks_counter < height_counter+2; blocks_counter++) // THIS LOOP CREATES THE # BLOCKS
             {
-            printf("%s", "#");
+            printf("#");
             }
         //start a new line
             printf("\n");
